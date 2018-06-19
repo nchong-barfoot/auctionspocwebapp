@@ -16,7 +16,7 @@ namespace BT.Auctions.PoC.Tests
             IEnumerable<Video> videos = videoData.GetVideos();
 
             Assert.IsNotNull(videos);
-            Assert.AreEqual(videos.Count(), 6);
+            Assert.AreEqual(videos.Count(), 5);
         }
     }
 }

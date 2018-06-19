@@ -10,9 +10,9 @@ namespace BT.Auctions.PoC.Api.Controllers
     {
         private readonly IVideoService _videoService;
 
-        public VideosController()
+        public VideosController(IVideoService videoService)
         {
-            _videoService = new VideoService();
+            _videoService = videoService;
         }
 
         // GET api/videos/5

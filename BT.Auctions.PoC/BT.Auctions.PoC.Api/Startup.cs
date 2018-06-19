@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BT.Auctions.PoC.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace BT.Auctions.PoC.Api
 {
@@ -25,6 +20,16 @@ namespace BT.Auctions.PoC.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // Register application services
+            // Examples:
+            // services.AddScoped<ICharacterRepository, CharacterRepository>();
+            // services.AddTransient<IOperationTransient, Operation>();
+            // services.AddScoped<IOperationScoped, Operation>();
+            // services.AddSingleton<IOperationSingleton, Operation>();
+            // services.AddSingleton<IOperationSingletonInstance>(new Operation(Guid.Empty));
+            // services.AddTransient<OperationService, OperationService>();
+            services.AddScoped<IVideoService, VideoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,7 +39,12 @@ namespace BT.Auctions.PoC.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseHsts();
+            }
 
+            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

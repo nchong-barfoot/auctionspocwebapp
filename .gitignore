@@ -100,3 +100,4 @@ publish/
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
+/BT.Auctions.PoC/packages

@@ -2,14 +2,14 @@ using System.Collections.Generic;
 using System.Linq;
 using BT.Auctions.Poc.Data;
 using BT.Auctions.Poc.Models;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
-namespace BT.Auctions.PoC.Tests
+namespace BT.Auctions.PoC.Tests.Data
 {
-    [TestClass]
+    [TestFixture]
     public class VideoDataTests
     {
-        [TestMethod]
+        [Test]
         public void GetVideosReturnsAListOfVideos()
         {
             VideoData videoData = new VideoData();

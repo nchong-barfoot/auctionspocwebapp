@@ -25,7 +25,7 @@ namespace BT.Auctions.API.Controllers
         private readonly IMapper _mapper;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="DisplaysController"/> class.
+        /// Initializes a new instance of the <see cref="DisplaysController" /> class.
         /// </summary>
         /// <param name="displayService">The Display service.</param>
         /// <param name="logger">The logger.</param>

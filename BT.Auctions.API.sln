@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API", "BT.Auctions.API\BT.Auctions.API.csproj", "{3E54641F-FBC3-4A3C-A4CA-C6D1BA4127C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API.Services", "BT.Auctions.API.Services\BT.Auctions.API.Services.csproj", "{82EE50AE-2F68-4A30-9288-4DABE96190AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API.Models", "BT.Auctions.API.Models\BT.Auctions.API.Models.csproj", "{4B4B59A1-FA90-4038-AC13-12D6FFF60BDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API.Data", "BT.Auctions.API.Data\BT.Auctions.API.Data.csproj", "{0BBB92E8-F52D-44CC-9759-ECE30FE2C109}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API.Tests", "BT.Auctions.API.Tests\BT.Auctions.API.Tests.csproj", "{A9819C41-00AC-4EA4-9AE7-6E25983AF894}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.AppImport", "BT.Auctions.AppImport\BT.Auctions.AppImport.csproj", "{02942134-6B05-4282-8F40-8D40A624696F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT.Auctions.API.Common", "BT.Auctions.API.Common\BT.Auctions.API.Common.csproj", "{F21FAD5B-53D9-47B9-9A1A-33AFB10BE2EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{31651A36-4015-4F3A-83D9-247CD20167C3}"
+	ProjectSection(SolutionItems) = preProject
+		Auctions_Trigger_UpdateImageProtocol.sql = Auctions_Trigger_UpdateImageProtocol.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Scripts", "Test Scripts", "{40BD24DD-20C1-4DF7-AA60-DE3601F3A0BE}"
+	ProjectSection(SolutionItems) = preProject
+		Auctions.postman_globals = Auctions.postman_globals
+		AuctionsAPIAutomation.postman_collection = AuctionsAPIAutomation.postman_collection
+		AuctionsTest.postman_environment.json = AuctionsTest.postman_environment.json
+		Test Video - Automation Updated.mp4 = Test Video - Automation Updated.mp4
+		Test Video - Automation.mp4 = Test Video - Automation.mp4
+		Test Video Different Format.3gpp = Test Video Different Format.3gpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E54641F-FBC3-4A3C-A4CA-C6D1BA4127C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E54641F-FBC3-4A3C-A4CA-C6D1BA4127C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E54641F-FBC3-4A3C-A4CA-C6D1BA4127C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E54641F-FBC3-4A3C-A4CA-C6D1BA4127C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EE50AE-2F68-4A30-9288-4DABE96190AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EE50AE-2F68-4A30-9288-4DABE96190AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EE50AE-2F68-4A30-9288-4DABE96190AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EE50AE-2F68-4A30-9288-4DABE96190AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4B59A1-FA90-4038-AC13-12D6FFF60BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4B59A1-FA90-4038-AC13-12D6FFF60BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4B59A1-FA90-4038-AC13-12D6FFF60BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4B59A1-FA90-4038-AC13-12D6FFF60BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBB92E8-F52D-44CC-9759-ECE30FE2C109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBB92E8-F52D-44CC-9759-ECE30FE2C109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBB92E8-F52D-44CC-9759-ECE30FE2C109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBB92E8-F52D-44CC-9759-ECE30FE2C109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9819C41-00AC-4EA4-9AE7-6E25983AF894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9819C41-00AC-4EA4-9AE7-6E25983AF894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9819C41-00AC-4EA4-9AE7-6E25983AF894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9819C41-00AC-4EA4-9AE7-6E25983AF894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02942134-6B05-4282-8F40-8D40A624696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02942134-6B05-4282-8F40-8D40A624696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02942134-6B05-4282-8F40-8D40A624696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02942134-6B05-4282-8F40-8D40A624696F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21FAD5B-53D9-47B9-9A1A-33AFB10BE2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21FAD5B-53D9-47B9-9A1A-33AFB10BE2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21FAD5B-53D9-47B9-9A1A-33AFB10BE2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21FAD5B-53D9-47B9-9A1A-33AFB10BE2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29C8CB6D-EFD8-4598-8D33-556EB5BFED6F}
+	EndGlobalSection
+EndGlobal

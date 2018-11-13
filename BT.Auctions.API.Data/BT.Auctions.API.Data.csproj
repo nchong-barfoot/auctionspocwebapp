@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>BT.Auctions.API.Data</AssemblyName>
+    <RootNamespace>BT.Auctions.API.Data</RootNamespace>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180705215015_LotCreation.cs" />
+    <Compile Remove="Migrations\20180710011927_AgentUpdate.cs" />
+    <Compile Remove="Migrations\20180710044140_LotAgentRelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20180713003431_DisplayAndDisplayConfigurationsCreation.cs" />
+    <Compile Remove="Migrations\20180713020248_DisplayAndDisplayConfigurationsCreation.cs" />
+    <Compile Remove="Migrations\20180716232556_RemoveDisplayConfigurationsAuctionSessionId.cs" />
+    <Compile Remove="Migrations\20180717015801_JoinAuctionSessionToDisplayConfiguration.cs" />
+    <Compile Remove="Migrations\20180717042304_DisplayGroupsCreation.cs" />
+    <Compile Remove="Migrations\20180717231708_CascadeDeleteForDisplays.cs" />
+    <Compile Remove="Migrations\20180717234508_UpdateCascadeDeleteForDisplays.cs" />
+    <Compile Remove="Migrations\20180717235559_UpdateAgainCascadeDeleteForDisplays.cs" />
+    <Compile Remove="Migrations\20180718000351_UpdatedCascadeDeleteForDisplays.cs" />
+    <Compile Remove="Migrations\20180718000609_UpdatedCascadeDeleteForDisplays.cs" />
+    <Compile Remove="Migrations\20180718005242_AddedDisplayGroupTable.cs" />
+    <Compile Remove="Migrations\20180718010259_AddedDisplayGroupTable.cs" />
+    <Compile Remove="Migrations\20180718031117_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718031445_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718032126_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718032404_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718040229_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718040544_UpdateDisplayGroupsToHaveAuctionSessionFK.cs" />
+    <Compile Remove="Migrations\20180718101838_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180718102953_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180718103247_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180718105051_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180718105509_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180718105929_UpdateDisplayGroupsDelete.cs" />
+    <Compile Remove="Migrations\20180723041837_UpdateDisplayConfigurationAllowDisplayDisassociation.cs" />
+    <Compile Remove="Migrations\20180806221644_AddComputedLotCountColumn.cs" />
+    <Compile Remove="Migrations\20180806235047_AddAuctionSessionLotForeignKey.cs" />
+    <Compile Remove="Migrations\20180812235709_LotImageCreate.cs" />
+    <Compile Remove="Migrations\20180812235755_LotImageCreate.cs" />
+    <Compile Remove="Migrations\20180821224029_UpdateAuctionSessionsDatesToDateTimeOffset.cs" />
+    <Compile Remove="Migrations\20180909201421_AddIsDisplayedColumnToLotImages.cs" />
+    <Compile Remove="Migrations\20180909203456_AddIsDisplayedColumnToLotImages.cs" />
+    <Compile Remove="Migrations\20180909204245_AddIsDisplayedColumnToLotImages.cs" />
+    <Compile Remove="Migrations\20180921043708_AddIsPausedFlagToLots.cs" />
+    <Compile Remove="Migrations\20180921043910_AddIsPausedFlagToLots.cs" />
+    <Compile Remove="Migrations\20180921050546_AddIsPausedFlagToLots.cs" />
+    <Compile Remove="Migrations\20180921050751_AddIsPausedFlagToLots.cs" />
+    <Compile Remove="Migrations\20181002040309_AddBidTable.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BT.Auctions.API.Models\BT.Auctions.API.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

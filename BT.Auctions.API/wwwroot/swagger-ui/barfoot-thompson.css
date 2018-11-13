@@ -1,0 +1,28 @@
+﻿.swagger-ui .topbar {
+    background-color: #043978;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border: none;
+}
+
+.swagger-ui label {
+    color:white;
+}
+
+.swagger-ui .topbar-wrapper .link {
+    display:none;
+}
+
+#bt-label {
+    flex: 3;
+    font-size: medium;
+    color: white;
+    text-wrap: none;
+    text-align: right;
+}
+
+#bt-logo {
+    max-width:300px;
+    display:block;
+}

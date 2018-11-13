@@ -1,1 +1,1 @@
-# auctionspocwebapp
+# Barfoot & Thompson Auctions API

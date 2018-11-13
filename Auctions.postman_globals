@@ -1,0 +1,534 @@
+{
+	"id": "2791eeb6-feb4-4471-8a9e-b645879a9031",
+	"values": [
+		{
+			"key": "nonexistingvenueId",
+			"value": "9999999",
+			"enabled": true
+		},
+		{
+			"key": "invalidvenueId",
+			"value": "123abc",
+			"enabled": true
+		},
+		{
+			"key": "invalidStartDate",
+			"value": "2018-07-001",
+			"enabled": true
+		},
+		{
+			"key": "invalidFinishDate",
+			"value": "008-2018-02",
+			"enabled": true
+		},
+		{
+			"key": "invalidauctionSessionId",
+			"value": "abc12",
+			"enabled": true
+		},
+		{
+			"key": "lotId",
+			"value": "2632",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_updated",
+			"value": "7191",
+			"enabled": true
+		},
+		{
+			"key": "venueId",
+			"value": "7804",
+			"enabled": true
+		},
+		{
+			"key": "agentId",
+			"value": "481",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_updated2",
+			"value": "56",
+			"enabled": true
+		},
+		{
+			"key": "lotId_sold",
+			"value": "700",
+			"enabled": true
+		},
+		{
+			"key": "invalidLotId",
+			"value": "11a",
+			"enabled": true
+		},
+		{
+			"key": "nonexistinglotId",
+			"value": "1000000",
+			"enabled": true
+		},
+		{
+			"key": "lotId2",
+			"value": "2635",
+			"enabled": true
+		},
+		{
+			"key": "lotId_get",
+			"value": 493,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId",
+			"value": "2775",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId",
+			"value": "7945",
+			"enabled": true
+		},
+		{
+			"key": "agentId2",
+			"value": "156",
+			"enabled": true
+		},
+		{
+			"key": "nonexistingdisplayGroupId",
+			"value": "1111111",
+			"enabled": true
+		},
+		{
+			"key": "nonnumericdisplayGroupId",
+			"value": "abc123",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId2",
+			"value": "6972",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_updated3",
+			"value": 7171,
+			"enabled": true
+		},
+		{
+			"key": "auction_venueId2",
+			"value": 406,
+			"enabled": true
+		},
+		{
+			"key": "nonexistingDisplayId",
+			"value": "10000999",
+			"enabled": true
+		},
+		{
+			"key": "nonnumericDisplayId",
+			"value": "10ab9",
+			"enabled": true
+		},
+		{
+			"key": "nonnumericdisplayConfigurationId",
+			"value": "17a",
+			"enabled": true
+		},
+		{
+			"key": "nonexistingdisplayConfigurationId",
+			"value": "170000",
+			"enabled": true
+		},
+		{
+			"key": "auction_venueId3",
+			"value": 2993,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId2",
+			"value": "1834",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId3",
+			"value": "95",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId4",
+			"value": "58",
+			"enabled": true
+		},
+		{
+			"key": "displayConfigurationId",
+			"value": "165",
+			"enabled": true
+		},
+		{
+			"key": "displayConfigurationId2",
+			"value": "189",
+			"enabled": true
+		},
+		{
+			"key": "displayConfigurationId3",
+			"value": "2174",
+			"enabled": true
+		},
+		{
+			"key": "displayConfigurationId4",
+			"value": "296",
+			"enabled": true
+		},
+		{
+			"key": "displayId2",
+			"value": 102,
+			"enabled": true
+		},
+		{
+			"key": "displayId",
+			"value": "1312",
+			"enabled": true
+		},
+		{
+			"key": "displayId4",
+			"value": 167,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId3",
+			"value": "550",
+			"enabled": true
+		},
+		{
+			"key": "nonexistingauctionSessionId",
+			"value": "9999999",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId5",
+			"value": 4940,
+			"enabled": true
+		},
+		{
+			"key": "invaliddisplayGroupId",
+			"value": "17aaaa",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId7",
+			"value": "165",
+			"enabled": true
+		},
+		{
+			"key": "imageId",
+			"value": "6264",
+			"enabled": true
+		},
+		{
+			"key": "imageId2",
+			"value": "476",
+			"enabled": true
+		},
+		{
+			"key": "imageId4",
+			"value": "463",
+			"enabled": true
+		},
+		{
+			"key": "invalid_imageId",
+			"value": "7aa",
+			"enabled": true
+		},
+		{
+			"key": "nonexisting_imageId",
+			"value": "30000",
+			"enabled": true
+		},
+		{
+			"key": "auction_venueId_updated",
+			"value": 8803,
+			"enabled": true
+		},
+		{
+			"key": "auction_venueId_updated_2",
+			"value": 8805,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId_today",
+			"value": 3256,
+			"enabled": true
+		},
+		{
+			"key": "lotId_today",
+			"value": 4469,
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_today",
+			"value": "8165",
+			"enabled": true
+		},
+		{
+			"key": "timestamp",
+			"value": "08/27/2018",
+			"enabled": true
+		},
+		{
+			"key": "name",
+			"value": "jsonData.name",
+			"enabled": true
+		},
+		{
+			"key": "plusGST",
+			"value": 0,
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId6",
+			"value": 4939,
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_1",
+			"value": "2633",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_6",
+			"value": "5143",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_7",
+			"value": "5144",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_8",
+			"value": "5145",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_9",
+			"value": "5146",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_10",
+			"value": "2157",
+			"enabled": true
+		},
+		{
+			"key": "imageId3",
+			"value": "475",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_2",
+			"value": "4953",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_3",
+			"value": "563",
+			"enabled": true
+		},
+		{
+			"key": "agentId3",
+			"value": 438,
+			"enabled": true
+		},
+		{
+			"key": "agentId6",
+			"value": 365,
+			"enabled": true
+		},
+		{
+			"key": "agentId4",
+			"value": 439,
+			"enabled": true
+		},
+		{
+			"key": "agentId5",
+			"value": 440,
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_4",
+			"value": "564",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_5",
+			"value": "565",
+			"enabled": true
+		},
+		{
+			"key": "agentId7",
+			"value": 364,
+			"enabled": true
+		},
+		{
+			"key": "agentId8",
+			"value": 363,
+			"enabled": true
+		},
+		{
+			"key": "loadUtils",
+			"value": "function loadUtils() {\n    let utils = {};\n    utils.responseStatusCode = function responseStatusCode(statusCode)  {\n        pm.test(\"Status code is \"+statusCode, function () {pm.response.to.have.status(statusCode);});\n    }\n    \n    utils.headerElementPresent = function headerElementPresent(element)  {\n        pm.test(\"Header element \"+element+\" is present\", function () {pm.response.to.have.status(element);});\n    }\n    \n    utils.responseLessThan = function responseLessThan(duration)  {\n        pm.test(\"Response time is less than \"+duration+\" ms\", function () {pm.expect(pm.response.responseTime).to.be.below(duration);});\n    }\n    \n    utils.responseHasBody = function responseHasBody() {\n        pm.response.to.be.withBody;\n    }\n    \n    return utils;\n}; loadUtils();",
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId4",
+			"value": 433,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId6",
+			"value": 434,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId5",
+			"value": 432,
+			"enabled": true
+		},
+		{
+			"key": "displayConfigurationId_delete",
+			"value": null,
+			"enabled": true
+		},
+		{
+			"key": "bidId",
+			"value": "31976",
+			"enabled": true
+		},
+		{
+			"key": "bidId2",
+			"value": "51",
+			"enabled": true
+		},
+		{
+			"key": "nonexistingBidId",
+			"value": "900000",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId2",
+			"value": "27",
+			"enabled": true
+		},
+		{
+			"key": "nonexistinglotDetailId",
+			"value": "90000",
+			"enabled": true
+		},
+		{
+			"key": "invalidlotDetailId",
+			"value": "9a",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId",
+			"value": "2634",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_11",
+			"value": "4968",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_12",
+			"value": "2158",
+			"enabled": true
+		},
+		{
+			"key": "lotId_today_13",
+			"value": "4991",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId7",
+			"value": "226",
+			"enabled": true
+		},
+		{
+			"key": "nonexistinglotdetailId",
+			"value": "90000",
+			"enabled": true
+		},
+		{
+			"key": "invalidlotdetailId",
+			"value": "9a",
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_overlapping",
+			"value": 8027,
+			"enabled": true
+		},
+		{
+			"key": "displayGroupId_overlapping",
+			"value": 3095,
+			"enabled": true
+		},
+		{
+			"key": "auctionSessionId_overlapping2",
+			"value": 8042,
+			"enabled": true
+		},
+		{
+			"key": "scope",
+			"value": "https://www.googleapis.com/auth/plus.me https://www.googleapis.com/auth/userinfo.email",
+			"enabled": true
+		},
+		{
+			"key": "mediaId1",
+			"value": "20",
+			"enabled": true
+		},
+		{
+			"key": "mediaId2",
+			"value": "20",
+			"enabled": true
+		},
+		{
+			"key": "nonexistingmediaId",
+			"value": "100000",
+			"enabled": true
+		},
+		{
+			"key": "invalidmediaId",
+			"value": "10abc",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId3",
+			"value": "6351",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId4",
+			"value": "6352",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId5",
+			"value": "6353",
+			"enabled": true
+		},
+		{
+			"key": "lotDetailId6",
+			"value": "6354",
+			"enabled": true
+		},
+		{
+			"key": "auction_venueId",
+			"value": 9041,
+			"enabled": true
+		}
+	],
+	"name": "My Workspace Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2018-11-11T22:21:47.975Z",
+	"_postman_exported_using": "Postman/6.4.4"
+}

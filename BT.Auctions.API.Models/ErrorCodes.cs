@@ -1,0 +1,10 @@
+﻿namespace BT.Auctions.API.Models
+{
+    public enum ErrorCodes
+    {
+        ACCESS_DENIED_DISPLAY_ALREADY_CONNECTED = 1,
+        ACCESS_DENIED_CONTROLPANEL_ALREADY_CONNECTED = 2,
+        ACCESS_DENIED_DISPLAY_TYPE_NOT_SPECIFIED = 3,
+        CONTROL_PANEL_DISCONNECTED_DISPLAY = 4
+    }
+}
